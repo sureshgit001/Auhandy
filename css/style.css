@@ -1,0 +1,1440 @@
+body {
+    padding-top: 125px;
+}
+
+.top1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+
+}
+
+* {
+    transition: all 0.15s;
+
+}
+
+.card {
+    transition: all 0.15s;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+.firstthreeimghome123 img {
+    transition: all 0.3s;
+}
+
+.firstthreeimghome123 img:hover {
+    transform: scale(1.10);
+}
+
+li {
+    transition: all 0.15s;
+}
+
+li:hover {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    transition: all 0.15s;
+}
+
+button:hover {
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*---------------------------HOMEW PAGE CSS--------------*/
+.xxsheadrerflex {
+    padding: 15px 0;
+}
+
+.last2ndsecbghome {
+    background-color: black;
+}
+
+.foooterbghome {
+    background-color: rgb(49 41 41);
+}
+
+.intro-main1 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 43px;
+}
+
+.twomergemain {
+    flex-basis: 40%;
+}
+
+.textphonemain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introtextmain {
+    align-content: center;
+    display: grid;
+}
+
+.textmainhome {
+    background-color: rgb(232, 226, 226);
+}
+
+.whyimgtextmain {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.easycommenthome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.easytextimghome {
+    display: flex;
+
+}
+
+.easytextimghome {
+    flex-basis: 50%;
+}
+
+.easyimghome img {
+    padding-right: 10px;
+}
+
+.enginerepairshome {
+    border: solid;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-color: #203189;
+    padding-top: 25px;
+}
+
+.enginerepairshome h3 {
+    padding-bottom: 0px;
+}
+
+.enginerepairshome:hover {
+    background: rgb(26, 26, 166);
+    transition: 0.3s;
+}
+
+.enginerepairshome img {
+    padding: 15px;
+}
+
+
+.enginehome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxhome {
+    margin-top: 3rem;
+}
+
+
+
+.serviceslisthome {
+    display: grid;
+}
+
+
+
+.serviceslisthome ul {
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.oursertxthome {
+    padding-bottom: 2rem;
+}
+
+.formhome {
+    width: 50%;
+}
+
+.fourlogos {
+    padding: 79px 0;
+}
+
+.lastsecdivFLEX {
+    padding-bottom: 20px;
+}
+
+
+
+
+/* -----------HOME MAIN CSS-------------*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .xxsheadrerflex {
+        padding: 0;
+    }
+
+    .intro-main1 {
+        display: grid;
+    }
+
+    .introtextmain {
+        align-content: center;
+        display: grid;
+        padding-bottom: 50px;
+    }
+
+    .secondimgmain {
+        text-align: center;
+        padding-bottom: 40px;
+        display: none;
+    }
+
+    .secondimgmain img {
+        height: 300px;
+    }
+
+    .whyimgtextmain {
+        display: grid;
+    }
+
+    .easycommenthome {
+        display: grid;
+        justify-content: space-between;
+    }
+
+    .easycommenthome {
+        display: grid;
+
+    }
+
+    .easytextimghome {
+        display: flex;
+
+    }
+
+
+    .imghome {
+        display: grid;
+        padding-bottom: 43px;
+    }
+
+    .imghome img {
+        margin: 0 auto;
+    }
+
+    .imghome img {
+        width: 300px;
+    }
+
+    .textphonemain {
+        display: grid;
+    }
+
+    .text1main {
+        padding-bottom: 1rem;
+    }
+
+    .enginehome {
+        display: table;
+        margin: 0 auto;
+        row-gap: 20px;
+    }
+
+    .enginerepairshome {
+        margin-bottom: 37px;
+    }
+
+    .boxhome {
+        margin-top: 0;
+    }
+
+    .oursertxthome {
+        padding-bottom: 0rem;
+    }
+
+    .list-group-horizontal {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+
+    }
+
+    .boxhome {
+        margin-top: 0;
+        padding-top: 40px;
+    }
+
+    .formhome {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .intro-main1 {
+        display: grid;
+    }
+
+    .introtextmain {
+        align-content: center;
+        display: grid;
+        padding-bottom: 50px;
+    }
+
+    .secondimgmain {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .secondimgmain img {
+        height: 300px;
+    }
+
+    .whyimgtextmain {
+        display: grid;
+    }
+
+    .easycommenthome {
+        display: grid;
+        justify-content: space-between;
+    }
+
+    .easycommenthome {
+        display: grid;
+
+    }
+
+    .easytextimghome {
+        display: flex;
+
+    }
+
+    .easytextimghome {
+        display: flex;
+
+    }
+
+    .imghome {
+        display: grid;
+        padding-bottom: 43px;
+    }
+
+    .imghome img {
+        margin: 0 auto;
+    }
+
+    .formhome {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .secondimgmain img {
+        height: 300px;
+    }
+
+    .whyimgtextmain {
+        display: grid;
+    }
+
+    .imghome {
+        display: grid;
+        padding-bottom: 43px;
+    }
+
+    .imghome img {
+        margin: 0 auto;
+    }
+
+
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .imghome {
+        flex-basis: 80%;
+        align-items: center;
+        display: grid;
+    }
+
+    .imghome {
+
+        padding-right: 33px;
+    }
+
+    .enginerepairshome {
+        border: solid;
+        width: 226px;
+        height: 257px;
+        padding: 10px;
+        border-color: rgb(26, 26, 166);
+    }
+
+    .navbar-nav {
+        column-gap: 20px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .secondimgmain img {
+        margin-left: 60px;
+    }
+
+
+    .imghome {
+        padding-right: 100px;
+
+    }
+
+    .navbar-nav {
+        column-gap: 40px;
+    }
+
+
+
+
+
+}
+
+/* Extra large devices (large desktops,1400px)*/
+@media (min-width: 1400px) {
+
+    .navbar-nav {
+        column-gap: 49px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*------------ CONTATCT US MAP CSS------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerbg {
+    background-color: rgb(232, 226, 226);
+}
+
+/*TOP LOGOSEC*/
+.logosectop {
+    height: 80px;
+    align-items: center;
+}
+
+/*CONTACT US SECTION*/
+
+.contactus {
+
+    background-color: rgb(19, 19, 167);
+
+}
+
+/*MAP SECTION*/
+
+.mapwidth {
+
+    margin: 60px 0px;
+}
+
+/*FORM AND CONTACUS SECTION*/
+
+.borderoadd {
+    padding: 53px, 100px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-left: 100px;
+}
+
+/*FORM*/
+.w1-75 {
+    width: 80%;
+}
+
+.commenthei {
+    height: 100px;
+}
+
+/* CONTACTUS BORDER*/
+.iconpadding {
+    padding-right: 30px;
+}
+
+.ourlocationsec {
+    padding-bottom: 40px;
+}
+
+
+/*TRADEMARK LOGO LOGO CSS*/
+
+.trademarkbg {
+    background-color: rgb(232, 226, 226);
+}
+
+
+/*LAST SEC FOOTER SECTION*/
+
+
+.last2ndsecbg {
+
+    background-color: rgb(19, 19, 167);
+}
+
+
+.concatcuspad {
+    padding-bottom: 20px;
+}
+
+.listpaddi {
+    padding-bottom: 10px;
+}
+
+.nofontlast {
+    font-size: 18px;
+}
+
+.paddingtopallicons {
+    padding-top: 50px;
+}
+
+.concatcusiconpad {
+    padding-right: 30px;
+}
+
+.listarroepad {
+    padding-right: 10px;
+}
+
+.borederpadddis {
+    border: dashed;
+    border-width: 1px;
+    width: 305px;
+
+}
+
+/*FOOTER*/
+
+.foooterbg {
+    background-color: rgb(17, 17, 141);
+}
+
+/* CONTACT US MEDIS QUERIES*/
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* CONTACTUS */
+
+    /*  HEADER */
+    /* .xxsheadrerflex {
+        display: grid;
+        text-align: center;
+    } */
+    .iconsxs a .fa-brands {
+        font-size: 12px;
+    }
+
+    .topmosttextxs span {
+        font-size: 14px;
+    }
+
+    .xs-navsec img {
+        width: 150px;
+    }
+    body {
+        padding-top: 80px;
+    }
+    
+}
+
+
+
+/* .iconsxs{
+        margin-left: 10px;
+    } */
+
+
+/* .iconsxs a {
+
+        column-gap: 20px;
+        padding: 0px 33px;
+    } */
+
+/*  LOGOSEC */
+
+
+.xslogoimg {
+    text-align: center;
+}
+
+/*  FOOTERB DISCOUNT */
+.borderoadd {
+    padding-left: 36px;
+    width: 100%;
+    margin: auto;
+}
+
+.xlinputwidth {
+    width: 100%;
+}
+
+.discount {
+    margin-right: 0px;
+    margin: auto;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) )*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+    .lastsecdivFLEX {
+
+        padding-left: 113px;
+
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) )*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+    .discount {
+        margin-right: 100px;
+    }
+
+    .discount {
+        padding-left: 211px;
+        padding-bottom: 64px;
+    }
+
+}
+
+
+/* Large devices (desktops, 992px and up) )*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up))*/
+@media (min-width: 1200px) {}
+
+
+
+/*------------------------------  PAPRE 404 CSS ------------------------------- */
+
+
+/*404 SECTION*/
+
+.content404 h1 {
+    font-size: 100px;
+    color: rgb(19, 19, 167);
+    font-weight: 700;
+}
+
+.content404 p {
+    font-size: x-large;
+}
+
+.searchmain {
+    width: 235px;
+    padding: 4px;
+    background-color: rgb(232, 226, 226);
+}
+
+.content404 {
+    display: grid;
+    justify-items: center;
+}
+
+.input404 {
+    background: transparent;
+    border: 0px;
+    padding-right: 13px;
+    outline-color: rgb(232, 226, 226);
+}
+
+.secondimglong {
+    width: 227px;
+    padding: 6px;
+    background-color: rgb(232, 226, 226);
+
+
+}
+
+
+
+/*    ------------------------- SERVICE-GRID CSS---------------------------   */
+.gridimgtext {
+    border: solid;
+    border-width: 3px;
+    width: 250px;
+    height: 250px;
+    border-color: rgb(232, 226, 226);
+
+}
+
+.gridimgtext h3 {
+    font-size: x-large;
+}
+
+.gridimgtext:hover {
+    color: white;
+    background-color: rgb(19, 19, 167);
+
+}
+
+.i-plaingrid {
+    color: rgb(19, 19, 167);
+}
+
+.gridimgtext:hover .i-plaingrid {
+    color: white;
+}
+
+/*TOP SEC CSS*/
+.headerbg {
+    background-color: rgb(232, 226, 226);
+}
+
+/*TOP LOGO CSS*/
+.contactus {
+
+    background-color: rgb(19, 19, 167);
+
+}
+
+
+
+/*TRADEMARK LOGO LOGO CSS*/
+.trademarkbg {
+    background-color: rgb(232, 226, 226);
+}
+
+/*LAST SEC FOOTER SECTION*/
+.last2ndsecbg {
+
+    background-color: rgb(19, 19, 167);
+}
+
+.concatcuspad {
+    padding-bottom: 20px;
+}
+
+.nofontlast {
+    font-size: 18px;
+}
+
+.listpaddi {
+    padding-bottom: 10px;
+}
+
+.contactusmainflex {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logosectop {
+    height: 80px;
+    align-items: center;
+}
+
+.lastsecdivFLEX {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.iconpadding {
+    padding-right: 30px;
+}
+
+.paddingtopallicons {
+    padding-top: 50px;
+}
+
+.concatcusiconpad {
+    padding-right: 30px;
+}
+
+.listarroepad {
+    padding-right: 10px;
+}
+
+.borederpadddis {
+    border: dashed;
+    border-width: 1px;
+    width: 305px;
+}
+
+/*FOOTER*/
+
+.foooterbg {
+    background-color: rgb(17, 17, 141);
+}
+
+
+
+
+/* ------------------------ ABOUT US CSS--------------------------------*/
+
+.logosectop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whyimgtext {
+    display: flex;
+
+    padding-top: 50px;
+}
+
+.easytext h3 {
+    font-size: larger;
+}
+
+.why-chooseustext h4 {
+    position: relative;
+}
+
+.why-chooseustext h4::after {
+    position: absolute;
+    content: '';
+    border: solid;
+    border-bottom: solid 5px;
+    bottom: 5px;
+    width: 70px;
+    left: -1px;
+    color: darkblue;
+    border-radius: 5px;
+}
+
+.easytextimg.d-flex {
+    flex-basis: 50%;
+}
+
+.foursepdivs img {
+    width: 400px;
+
+}
+
+.secondimg {
+    position: relative;
+    right: -34px;
+    top: -354px;
+}
+.secondimg img {
+   width: 89%;
+}
+
+
+.twomergelong {
+    height: 440px;
+}
+
+.twomergelong {
+    padding-right: 86px;
+    padding-left: 52px;
+}
+
+.easycomment {
+    display: flex;
+}
+
+.giftheart {
+    display: flex;
+}
+
+.longcustomervalues {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coinborderdiv {
+    border: solid 0px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(19, 19, 167);
+    border-radius: 24px;
+    margin: 0px auto;
+
+}
+
+i.fa-solid.fa-crown {
+    padding-top: 10px;
+    color: white;
+}
+
+i.fa-solid.fa-rocket {
+    padding-top: 10px;
+    color: white;
+}
+
+i.fa-solid.fa-heart {
+    padding-top: 10px;
+    color: white;
+}
+
+i.fa-solid.fa-award {
+    padding-top: 10px;
+    color: white;
+}
+
+.yearsofexperi span {
+    color: yellow;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.plumberbgcol {
+    background-color: rgb(19, 19, 167);
+}
+
+.bextplumberteam h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.iconshover {
+    display: none;
+}
+
+.card:hover .iconshover {
+    position: absolute;
+    width: 287px;
+    height: 382px;
+    display: flex;
+    align-items: center;
+    background: black;
+    opacity: 0.6;
+    padding-left: 80px;
+}
+
+.card:hover i.iconcolourwhite:hover {
+    color: rgb(19, 19, 167);
+
+}
+
+i.iconcolourwhite {
+    color: white;
+
+}
+
+.card {
+    width: 18rem;
+}
+
+.contactusbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactusbtntextbg {
+    background-color: rgb(19, 19, 167);
+}
+
+.contactusbtnbtn {
+    align-items: center;
+    display: grid;
+}
+
+.commentbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconposirte {
+    position: relative;
+}
+
+.iconcommabse {
+    position: absolute;
+    bottom: 73px;
+    left: 18px;
+}
+
+
+
+
+
+
+
+/*    -----  CONTACTUS MAIN/LONG MEDIA QUERIES  ---*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .whyimgtext {
+        display: block;
+    }
+
+    .easycomment {
+        display: block;
+    }
+
+    .giftheart {
+        display: block;
+    }
+
+    .twomergelong {
+
+        display: grid;
+        text-align: center;
+
+    }
+
+    .twomergelong {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .foursepdivs img {
+        width: 272px;
+    }
+
+    .secondimg {
+        position: relative;
+        right: -9px;
+        top: -239px;
+    }
+
+    .secondimg img {
+        width: 245px;
+    }
+
+    .twomergelong {
+        height: 309px;
+    }
+
+    .plumbercu {
+        margin: 0px auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 16rem;
+    }
+
+    .card:hover .iconshover {
+        position: absolute;
+        width: 15.9rem;
+        height: 339.5px;
+        display: flex;
+        align-items: center;
+        background: black;
+        opacity: 0.6;
+        padding-left: 70px;
+    }
+
+    .lastsecdivFLEX {
+        display: grid;
+    }
+
+    .contactus2 {
+        padding-bottom: 40px;
+    }
+
+    .plumberdepart {
+        padding: 50px 0px;
+    }
+
+
+    .borederpadddis {
+        border: dashed;
+        border-width: 1px;
+        width: 295px;
+    }
+
+
+
+    button.btn.btn-warning.text-white.rounded-0 {
+        width: 155px;
+    }
+
+    .contactusbtn {
+        display: block;
+
+    }
+
+    .commentbox {
+        display: grid;
+    }
+
+    .cardwidthcl {
+        width: 100%;
+    }
+
+    .cardwidthcl {
+        padding-bottom: 20px;
+    }
+
+    .iconcommabse {
+        position: absolute;
+        bottom: 93px;
+        left: 18px;
+    }
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .whyimgtext {
+        display: block;
+    }
+
+    .easycomment {
+        display: block;
+    }
+
+    .giftheart {
+        display: block;
+    }
+
+    .twomergelong {
+        height: 434px;
+    }
+
+    .card {
+        width: 16rem;
+    }
+
+    .card:hover .iconshover {
+        position: absolute;
+        width: 15.9rem;
+        height: 339.5px;
+        display: flex;
+        align-items: center;
+        background: black;
+        opacity: 0.6;
+        padding-left: 70px;
+    }
+
+    .plumberdepart {
+        padding: 60px 0px;
+    }
+
+    .commentbox {
+        display: grid;
+    }
+
+    .cardwidthcl {
+        width: 100%;
+    }
+
+    .cardwidthcl {
+        padding-bottom: 20px;
+    }
+
+    .iconcommabse {
+        position: absolute;
+        bottom: 94px;
+        left: 18px;
+    }
+    .secondimg img {
+        width: 91%;
+    }
+    .secondimg {
+        position: relative;
+        right: -42px;
+        top: -348px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .whyimgtext {
+        display: block;
+    }
+
+    .twomergelong {
+        padding-left: 145px;
+    }
+
+    .discount {
+
+        padding-bottom: 64px;
+    }
+
+    .card {
+        width: 18rem;
+    }
+
+    .plumberdepart {
+        margin: 0 auto;
+        padding-left: 52px;
+    }
+
+    .discount {
+        margin-right: 485px;
+    }
+
+    .plumberdepart {
+        padding: 60px 0px;
+    }
+
+    .cardwidthcl {
+        width: 14rem;
+    }
+
+    .iconcommabse {
+        position: absolute;
+        bottom: 74px;
+        left: 18px;
+    }
+
+    .secondimg img {
+        width: 76%;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .twomergelong {
+        padding-right: 46px;
+        padding-left: 0px;
+    }
+
+    .twomergelong {
+        padding-top: 30px;
+    }
+
+    .card {
+        width: 14rem;
+    }
+
+    .card:hover .iconshover {
+        position: absolute;
+        width: 13.9rem;
+        height: 297px;
+        display: flex;
+        align-items: center;
+        background: black;
+        opacity: 0.6;
+        padding-left: 50px;
+    }
+
+    .plumberdepart {
+        padding: 80px 0px;
+    }
+
+    .cardwidthcl {
+        width: 19rem;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .twomergelong {
+        padding-right: 100px;
+        padding-left: 0px;
+    }
+
+    .card {
+        width: 16rem;
+    }
+
+    .card:hover .iconshover {
+        position: absolute;
+        width: 15.9rem;
+        height: 340px;
+        display: flex;
+        align-items: center;
+        background: black;
+        opacity: 0.6;
+        padding-left: 70px;
+    }
+
+    .plumberdepart {
+        padding: 90px 0px;
+    }
+
+    .cardwidthcl {
+        width: 22rem;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .card {
+        width: 18rem;
+    }
+
+    .card:hover .iconshover {
+        position: absolute;
+        width: 17.9rem;
+        height: 382px;
+        display: flex;
+        align-items: center;
+        background: black;
+        opacity: 0.6;
+        padding-left: 85px;
+    }
+
+    .discountborder {
+        display: flex;
+        justify-content: center;
+    }
+
+    .discountborder {
+        padding-left: 61px;
+
+    }
+
+    section.xspaddingcl {
+        padding-left: 40px;
+    }
+
+    .plumberdepart {
+        padding: 90px 0px;
+    }
+
+    .cardwidthcl {
+        width: 26rem;
+    }
+}
+
+
+
+/*  --------------------------ENGINE REPAIR CSS-------------------------------- */
+.engine-repairs {
+    padding: 80px 0;
+}
+
+div#v-pills-tab button {
+    border-color: rgb(235, 229, 229);
+    background-color: white;
+    border-width: 1px;
+    padding: 8px;
+    width: 295px;
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+    border: solid;
+
+}
+
+div#v-pills-tab {
+    padding-right: 2rem;
+}
+
+div#v-pills-tab button:hover {
+    background-color: rgb(19, 19, 167);
+    color: white;
+
+}
+
+div#v-pills-tab button:hover i.fa-solid {
+    color: gold;
+}
+
+.adimger img {
+    width: 295px;
+}
+
+.imgdivreplace img {
+    width: 100%;
+
+}
+
+.galleryimagestab img {
+    width: 32%;
+}
+
+
+/* ----- ENGINE REPAIR MEDIA QUERIES-----*/
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .adimger {
+        display: none;
+    }
+
+    .tabandtadco .contactus2 {
+        display: none;
+    }
+
+    .buttonsdivtabs {
+        margin: auto;
+        padding-bottom: 43px;
+    }
+
+    div#v-pills-tab {
+        padding-right: 0;
+        margin-right: 0;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .galleryimagestab img {
+        width: 32%;
+    }
+
+    .buttonsdivtabs {
+        margin: auto;
+        padding-bottom: 43px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .galleryimagestab img {
+        width: 31%;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
